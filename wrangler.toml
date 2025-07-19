@@ -1,0 +1,12 @@
+name = "twinurl"
+main = "src/index.js"
+compatibility_date = "2025-02-21"
+
+# KV Namespace Binding
+[[kv_namespaces]]
+binding = "KV"
+id = "9d4d94f49ca543d8bdb7759cd63ed5b3"  # Create a KV database and put the id of here
+
+# Environment Variables
+[vars]
+SECRET_CODE = ""  # Set this in Cloudflare dashboard or .env for local dev
